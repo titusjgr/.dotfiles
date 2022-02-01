@@ -108,3 +108,5 @@ bindkey '  ' autosuggest-accept
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 # https://github.com/ohmyzsh/ohmyzsh/issues/7558#issuecomment-460812339
 export LANG=en_US.UTF-8
+
+export TERM=xterm-256color
