@@ -58,6 +58,9 @@ Plugin 'itchyny/lightline.vim'
 call vundle#end()
 filetype plugin indent on
 
+" For tab indentation for makefiles
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
+
 " Prevent the background color from breaking
 set t_ut=
 
