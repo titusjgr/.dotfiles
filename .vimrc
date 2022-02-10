@@ -60,6 +60,8 @@ filetype plugin indent on
 
 " For tab indentation for makefiles
 autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType toml setlocal shiftwidth=2 tabstop=2
 
 " Prevent the background color from breaking
 set t_ut=
