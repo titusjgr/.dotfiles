@@ -101,8 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-# Bindkeys
-bindkey '  ' autosuggest-accept
 
 # zsh-autosuggestions
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
