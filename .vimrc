@@ -88,6 +88,7 @@ let g:lightline = {
 " Set language linter
 let g:ale_linters = {
             \ 'python': ['pycodestyle', 'pyflakes'],
+            \   'haskell': ['hlint', 'hdevtools', 'hfmt'],
             \ }
 let g:ale_lint_on_enter = 0
 let g:ale_lint_on_save = 1
