@@ -103,6 +103,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 
 # zsh-autosuggestions
-export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+# export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 export TERM=xterm-256color
